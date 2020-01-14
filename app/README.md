@@ -1,0 +1,1 @@
+###example structure of node js project,follow best practise,refer to https://softwareontheroad.com/ideal-nodejs-project-structure/#folder

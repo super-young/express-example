@@ -1,0 +1,16 @@
+version: "3.4"
+services: 
+    web:
+        build: .
+        volumes: 
+            - type: bind
+              source: ./app
+              target: /app
+        ports:
+            - "8007:8007"
+        networks: 
+            firefox-extension_koa:
+                aliases: 
+                - web
+networks: 
+    firefox-extension_koa:
